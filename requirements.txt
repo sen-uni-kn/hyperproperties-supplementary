@@ -1,0 +1,13 @@
+# for CPU:
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# for GPU (CUDA 11.6):
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch >= 2.0.0, < 2.1
+torchvision >= 0.15, < 0.16
+onnx >= 1.14.0, < 1.15
+
+numpy >= 1.25, < 1.26
+pandas >= 2.0.3, < 2.1
+
+tqdm >= 4.65, < 4.66
+requests >= 2.31.0, < 2.32
